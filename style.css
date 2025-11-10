@@ -1,0 +1,70 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo preto e a cor da letra */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    color: yellow;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Estilo para as seções */
+.conteudo, .letra {
+    margin: 40px auto;
+    width: 80%;
+    max-width: 900px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: yellow;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+/* Estilo para a letra da música */
+pre {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    font-size: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
